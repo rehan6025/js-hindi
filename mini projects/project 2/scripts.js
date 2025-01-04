@@ -16,8 +16,8 @@ button.addEventListener('click', (event) => {
     }
 
    
-    const heightInM = Number(height.value) / 100; // Convert height to meters
-    const weightValue = Number(weight.value);    // Convert weight to number
+    const heightInM = Number(height.value) / 100; 
+    const weightValue = Number(weight.value);  
 
     
     const bmi = weightValue / (heightInM * heightInM);
